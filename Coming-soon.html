@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - M Gregory Legal</title>
+    <link rel="stylesheet" href="coming-soon.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="coming-soon-container">
+        <div class="coming-soon-content">
+            <h1>M Gregory Legal</h1>
+            <p>Website Coming Soon!</p>
+            <p>From 1 July 2024, Mark Gregory is providing specialist legal services in the areas of:</p>
+            <ul>
+                <li>Native title and Aboriginal heritage</li>
+                <li>Planning and environmental law</li>
+                <li>Local government law</li>
+                <li>Contracts and commercial law</li>
+                <li>Specialist litigation</li>
+            </ul>
+            <p>You can contact Mark here:</p>
+            <p>M: <span id="mobile"></span></p>
+            <p>T: <span id="telephone"></span></p>
+            <p>E: <span id="email"></span></p>
+        </div>
+    </div>
+    <script>
+        // Anti-scraping measures for contact info
+        document.getElementById('mobile').textContent = '0419 926 636';
+        document.getElementById('telephone').textContent = '(08) 9226 0375';
+        document.getElementById('email').innerHTML = '<a href="mailto:mark@mgregorylegal.com.au">mark@mgregorylegal.com.au</a>';
+    </script>
+</body>
+</html>
+
