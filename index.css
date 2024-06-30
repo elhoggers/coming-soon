@@ -10,7 +10,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #282c34;
+    background: #003366; /* Dark teal blue */
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
@@ -19,7 +19,7 @@ body, html {
     text-align: center;
     background: rgba(255, 255, 255, 0.1);
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 0; /* Remove rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -29,7 +29,7 @@ body, html {
 }
 
 .coming-soon-content h1 {
-    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif; /* Use the same font as the rest of the page */
     font-size: 2.5em;
     margin-bottom: 20px;
 }
